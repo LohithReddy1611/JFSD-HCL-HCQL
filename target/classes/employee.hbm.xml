@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+   "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+   "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.kl.Employee" table="emp">
+        <id name="eid" column="tid" />
+        <property name="ename" column="tname"/>
+        <property name="esal" column="tsal"/>
+    </class>
+</hibernate-mapping>
+   
